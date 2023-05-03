@@ -6,11 +6,13 @@
     */
 
     //ENTRADA
-
+const gasolina1 = Number(prompt(`Qual o valor do primeiro posto?`));
+const gasolina2 = Number(prompt(`Qual o valor do segundo posto?`));
+const gasolina3 = Number(prompt(`Qual o valor do terceiro posto?`));
 
     //PROCESSAMENTO
-
+const valorDostres = (gasolina1 + gasolina2 + gasolina3 / 3 )
 
     //SAÍDA
-
+alert(`A media da gasolina sera de R$ ${valorDostres}`.tofixed(2).replace(".",","))
 </script>

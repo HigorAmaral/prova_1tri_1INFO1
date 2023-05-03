@@ -7,11 +7,13 @@
     */
 
     //ENTRADA
-
+ const gramasPordia = Number(prompt(`Quantos gramas o cachorro come por dia?`));
 
     //PROCESSAMENTO
-
+const comeDiasuteis = gramasPordia * 5 
+const semanaUteis = comeDiasuteis * 0.85
 
     //SAÍDA
+alert(`O cachorro come por semana ${semanaUteis} kilos`.tofixed(2).replace(".",","))
 
 </script>
